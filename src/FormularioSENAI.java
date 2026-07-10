@@ -19,7 +19,7 @@ public class FormularioSENAI {
         entrada.nextLine();
 
         System.out.println("Quanto tempo você está no SENAI?");
-         int periodo = entrada.nextInt();
+         String periodo = entrada.nextLine();
 
 
         // resultados
