@@ -20,7 +20,7 @@ public class ListaQuestao2 {
             System.out.println("Recuperação");
         }
 
-        if (media = 7  && media < 10);{
+        if (media == 7  && media < 10);{
             System.out.println("Aprovado, parabéns, Zé!");
         }
     }
