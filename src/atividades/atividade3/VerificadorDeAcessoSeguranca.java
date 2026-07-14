@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package atividades.atividade3;
 
+import java.util.Scanner;
 public class VerificadorDeAcessoSeguranca {
 
 
