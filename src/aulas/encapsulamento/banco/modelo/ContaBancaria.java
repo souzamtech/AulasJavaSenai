@@ -5,12 +5,20 @@ public class ContaBancaria {
     private String titular;
     private  int numeroDaConta;
     private double saldo; //Tem mais caracteres e o FLOAT tem menos caracteres. Por isso usamos o double porque ele tem mais numeros
+    private static  int contador = 1;
 
-    //Construtor dessa classe
-    public ContaBancaria(String titular, int numeroDaConta){
+    private int metodoDeIncremento(){
+        return contador++;
+    }
+
+
+    // Metodo Construtor dessa classe
+    public ContaBancaria(String titular){
         this.titular = titular;
-        this.numeroDaConta = numeroDaConta;
+        this.numeroDaConta = contador;
+        contador++;
         this.saldo = 0.0;
+
 
     }
 
@@ -19,10 +27,6 @@ public class ContaBancaria {
     //méotodo  para modificar o valor dentro da
     public String getTitular() {
         return titular;
-    }
-
-    public void setTitular(String titular) {
-        this.titular = titular;
     }
 
     public void depositar(double valor){
