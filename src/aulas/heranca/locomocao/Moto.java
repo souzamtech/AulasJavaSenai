@@ -10,5 +10,9 @@ public class Moto {
         System.out.println("Puxando o pezinho!");
     }
 
+    public void abastecer(){
+        System.out.println("Abastecendo!");
+    }
+
     }
 
