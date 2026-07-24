@@ -1,4 +1,4 @@
-package aulas.polimorfismo.exemplos.formularios;
+package aulas.polimorfismo.exemplos.formulario;
 
 public class Main {
     public static void main(String[] args) {
